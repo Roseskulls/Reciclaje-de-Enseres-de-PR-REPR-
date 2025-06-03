@@ -224,7 +224,7 @@ section ul li:hover {
     transform: translateY(-3px);
 }
 
-section id="inicio"{
+section h3 {
     font-size: 2.5rem;
     color: var(--primary-color);
     text-align: center;
