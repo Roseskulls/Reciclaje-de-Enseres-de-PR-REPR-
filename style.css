@@ -374,6 +374,9 @@ footer a:hover {
     section p {
         font-size: 1rem;
     }
+    section ol {
+    font-size: 1rem;
+    }
 }
 
 @media (max-width: 480px) {
