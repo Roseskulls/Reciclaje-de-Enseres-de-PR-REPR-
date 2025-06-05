@@ -319,15 +319,13 @@ footer a:hover {
     color: #27ae60; /* Darker green */
     text-decoration: underline;
 }
-
- img{
-     height:300px;
-     width:auto;
+  
 .logoc {
+    height:300px;
+     width:auto;
     justify-content: center;
     display: flex;
     align-items: center;
-}
 }
 /* Responsive Design */
 @media (max-width: 768px) {
