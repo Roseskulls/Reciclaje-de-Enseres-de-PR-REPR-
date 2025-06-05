@@ -320,6 +320,10 @@ footer a:hover {
     text-decoration: underline;
 }
 
+.logoc {
+    height:300px;
+    width:auto;
+}
 /* Responsive Design */
 @media (max-width: 768px) {
     nav {
