@@ -324,7 +324,7 @@ footer a:hover {
     height:300px;
     width:auto;
     justify-content: center;
-    margin: center;
+    display: flex;
 }
 /* Responsive Design */
 @media (max-width: 768px) {
