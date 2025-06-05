@@ -323,6 +323,7 @@ footer a:hover {
 .logoc {
     height:300px;
     width:auto;
+    display-alignment: center;
 }
 /* Responsive Design */
 @media (max-width: 768px) {
