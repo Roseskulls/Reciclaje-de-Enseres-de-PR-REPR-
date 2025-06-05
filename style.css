@@ -320,11 +320,10 @@ footer a:hover {
     text-decoration: underline;
 }
 
-
+ img{
+     height:300px;
+     width:auto;
 .logoc {
-    img{
-    height:300px;
-    width:auto;
     justify-content: center;
     display: flex;
     align-items: center;
