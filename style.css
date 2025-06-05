@@ -87,7 +87,7 @@ nav ul li a:hover::after {
     width: 100%;
 }
 header {
-    background-image: url(logo REPR.PNG);
+    background-image: url(b.PNG);
     color: var(--light-text-color);
     text-align: center;
     padding: 100px 20px;
