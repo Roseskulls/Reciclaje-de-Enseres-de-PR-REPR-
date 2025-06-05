@@ -320,12 +320,14 @@ footer a:hover {
     text-decoration: underline;
 }
 
+img{
 .logoc {
     height:300px;
     width:auto;
     justify-content: center;
     display: flex;
     align-items: center;
+}
 }
 /* Responsive Design */
 @media (max-width: 768px) {
