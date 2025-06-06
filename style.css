@@ -241,13 +241,7 @@ section h3 {
     position: relative;
 }
 
- .logoc {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
-  border: 1px solid black;
-}
+ 
 /* Contact Form */
 #contacto form {
     display: flex;
@@ -326,7 +320,13 @@ footer a:hover {
     color: #27ae60; /* Darker green */
     text-decoration: underline;
 }
-  
+  .logoc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border: 1px solid black;
+}
 /* Responsive Design */
 @media (max-width: 768px) {
     nav {
