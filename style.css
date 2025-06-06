@@ -321,11 +321,11 @@ footer a:hover {
     text-decoration: underline;
 }
   .logoc {
-  display: flex;
+  display: center;
   justify-content: center;
   align-items: center;
   height: 200px;
-  border: 1px solid black;
+  width: auto;
 }
 /* Responsive Design */
 @media (max-width: 768px) {
