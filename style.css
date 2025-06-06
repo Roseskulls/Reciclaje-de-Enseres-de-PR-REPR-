@@ -241,9 +241,26 @@ section h3 {
     position: relative;
 }
     section contacto {
-        justify-content: center;
-        align-items: center;
-        display: center;
+        div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  border: 1px solid black;
+}
+
+img {
+  width: 50%;
+  height: 50%;
+    .logoc {
+    height:200px;
+     width:auto;
+    justify-content: center;
+    display: center;
+    align-items: center;
+    margin:center;
+}
+}
     }
 /* Contact Form */
 #contacto form {
@@ -324,14 +341,6 @@ footer a:hover {
     text-decoration: underline;
 }
   
-.logoc {
-    height:200px;
-     width:auto;
-    justify-content: center;
-    display: center;
-    align-items: center;
-    margin:center;
-}
 /* Responsive Design */
 @media (max-width: 768px) {
     nav {
