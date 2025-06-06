@@ -320,16 +320,14 @@ footer a:hover {
     color: #27ae60; /* Darker green */
     text-decoration: underline;
 }
-  .logoc {
-  display: center;
+  div {
+  display: flex;
   justify-content: center;
-  align-items: center;
-  height: 200px;
-  width: auto;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 60px 20px;
-  margin: 0 auto;
+}
+
+img {
+  height:200px
+    width: auto;
 }
 /* Responsive Design */
 @media (max-width: 768px) {
