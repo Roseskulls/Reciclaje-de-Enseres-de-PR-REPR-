@@ -319,10 +319,6 @@ footer a:hover {
     color: #27ae60; /* Darker green */
     text-decoration: underline;
 }
-.logoc{
-    height: 100px;
-    width:auto;
-}
 /* Responsive Design */
 @media (max-width: 768px) {
     nav {
