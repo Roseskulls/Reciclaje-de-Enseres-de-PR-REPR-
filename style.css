@@ -240,16 +240,17 @@ section h3 {
     text-align: center;
     position: relative;
 }
-    section contacto {
-        .logoc {
-        div {
+div{
+    img{
+ .logoc {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 200px;
   border: 1px solid black;
 }
-
+}
+}
 /* Contact Form */
 #contacto form {
     display: flex;
