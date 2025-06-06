@@ -241,23 +241,15 @@ section h3 {
     position: relative;
 }
     section contacto {
+        .logoc {
         div {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 600px;
+  height: 200px;
   border: 1px solid black;
 }
 
-    .logoc {
-    height:200px;
-     width:auto;
-    justify-content: center;
-    display: center;
-    align-items: center;
-    margin:center;
-}
-    }
 /* Contact Form */
 #contacto form {
     display: flex;
