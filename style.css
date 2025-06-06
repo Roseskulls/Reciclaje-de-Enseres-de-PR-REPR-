@@ -240,7 +240,11 @@ section h3 {
     text-align: center;
     position: relative;
 }
-    
+    section contacto {
+        justify-content: center;
+        align-items: center;
+        display: center;
+    }
 /* Contact Form */
 #contacto form {
     display: flex;
