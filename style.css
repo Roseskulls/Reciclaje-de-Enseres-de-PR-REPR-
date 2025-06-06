@@ -326,6 +326,10 @@ footer a:hover {
   align-items: center;
   height: 200px;
   width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 60px 20px;
+  margin: 0 auto;
 }
 /* Responsive Design */
 @media (max-width: 768px) {
