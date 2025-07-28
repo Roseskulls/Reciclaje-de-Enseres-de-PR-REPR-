@@ -9,7 +9,7 @@
 
     <body>
            
-
+ 
 
 <nav class="navbar">
     <img src="logo REPR.PNG" alt="Logo de la Pagina" class="logo">
@@ -19,8 +19,40 @@
         <li><a href=" #servicios">Servicios</a></li>
         <li><a href="#proyectos">Proyectos</a></li>
         <li><a href=" #contacto">Contacto</a></li>    
-    </ul>
+   
 
+    <link id="estilo-light" rel="stylesheet" href="light.css">
+  <link id="estilo-dark" rel="stylesheet" href="dark.css" disabled>
+    <li><button id="boton-modo" class="toggle-btn">🌙</button></li>
+   </ul>
+<script>
+    const btn = document.getElementById('boton-modo');
+    const lightLink = document.getElementById('estilo-light');
+    const darkLink  = document.getElementById('estilo-dark');
+
+    // Aplica al cargar
+    const temaGuardado = localStorage.getItem('temaUsuario') || 'light';
+    activarTema(temaGuardado);
+
+    btn.addEventListener('click', () => {
+      const nuevoTema = darkLink.disabled ? 'dark' : 'light';
+      activarTema(nuevoTema);
+    });
+
+    function activarTema(tema) {
+      if (tema === 'dark') {
+        lightLink.disabled = true;
+        darkLink.disabled  = false;
+      } else {
+        lightLink.disabled = false;
+        darkLink.disabled  = true;
+      }
+      localStorage.setItem('temaUsuario', tema);
+    }
+  </script>
+</head>
+
+  
     </nav>
 <header>
     <h2> Reciclaje de Enseres de PR (REPR)</h2>
@@ -103,4 +135,8 @@
 </footer>
     </body>
 </html>
+
+
+
+
 
