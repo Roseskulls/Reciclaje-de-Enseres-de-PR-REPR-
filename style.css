@@ -22,7 +22,7 @@ body {
     line-height: 1.6;
     background-color: var(--background-color);
     color: var(--text-color);
-    padding-top: 70px;
+    padding-top : 70px;
     scroll-behavior: smooth;
 }
 
@@ -72,6 +72,14 @@ nav ul li a {
     padding: 5px 0;
     transition: color var(--transition-speed) ease;
 }
+nav button.toggle-btn {
+    background: var(--dark-background-color);
+    color: var(--dark-background-color);
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+    padding: none;
+}
 nav ul li a::after {
     content: '';
     display: block;
@@ -86,6 +94,7 @@ nav ul li a:hover {
 nav ul li a:hover::after {
     width: 100%;
 }
+ 
 header {
     background-image: url(b.PNG);
     color: var(--light-text-color);
@@ -99,6 +108,7 @@ header {
     position: relative;
     overflow: hidden;
 }
+
 
 header::before {
     content: '';
@@ -197,17 +207,7 @@ section p {
     margin-left: auto;
     margin-right: auto;
 }
-section ol {
-    font-size: 1.1rem;
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
-    text-align: left;
-    justify-content: space between;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 section ul {
     list-style: none;
     display: flex;
@@ -232,13 +232,6 @@ section ul li:hover {
     background-color: var(--primary-color);
     color: var(--light-text-color);
     transform: translateY(-3px);
-}
-
-section h3 {
-    font-size: 2.5rem;
-    color: var(--primary-color);
-    text-align: center;
-    position: relative;
 }
 
 /* Contact Form */
@@ -319,6 +312,7 @@ footer a:hover {
     color: #27ae60; /* Darker green */
     text-decoration: underline;
 }
+
 .center {
   display: block;
   margin-left: auto;
@@ -381,9 +375,6 @@ footer a:hover {
 
     section p {
         font-size: 1rem;
-    }
-    section ol {
-    font-size: 0.5rem;
     }
 }
 
